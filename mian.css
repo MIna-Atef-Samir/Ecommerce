@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    background-color: #3d464d;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    box-shadow: 10px 20px 50px #ddd;
+}
+nav ul{
+    list-style: none;
+    padding: 20px;
+    display: flex;
+}
+nav ul li{
+    margin-left: 15px;
+    color: #fff;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+
+}
+nav ul li:hover{
+    color: #ffd334;
+    cursor: pointer;
+}
+.grow{
+    min-width: 85px;
+}
+.together{
+    display: flex;
+    justify-content: space-between;
+}
+.left p{
+    padding: 0px 10px;
+}
+.flex{
+    display: flex;
+}
+
+.left{
+    background-color: #ffd334;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    margin-left: 10%;
+    width: 100%;
+    color: #3d464d;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+.left:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.right{
+    padding: 20px;
+    color: #fff;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.heart{
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.icon{
+    margin-right: 30px;
+    margin-top: 15px;
+    position: relative;
+}
+.icon i{
+    width: 100%;
+    position: absolute;
+}
+.list{
+    position: relative;
+    display: none;
+}
+.drop{
+    position: absolute;
+    right: 10px;
+    background-color: #3d464d;
+    bottom: -145px;
+    width: 100%;
+    min-width:200px ;
+    display: none;
+
+}
+.drop li{
+    margin: 0px;
+}
+.drop li:hover{
+    padding-left: 3px;
+}
+.round{
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin: 0px 5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+}
+
+.icon:hover{
+cursor: pointer;
+}
+
+@media (max-width : 930px) {
+    .center{
+        display: none;
+    }
+    .right{
+        display: none;
+    }
+    .list{
+        display: block;
+    }
+}
+/* 
+    text = sentenses - error 
+*/
